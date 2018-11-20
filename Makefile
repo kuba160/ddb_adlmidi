@@ -14,7 +14,7 @@ endif
 
 PREFIX=/usr/local/lib/deadbeef
 PLUGNAME=adlmidi
-LIBS=-lADLMIDI 
+LIBS=-lADLMIDI -lstdc++
 # /usr/local/lib/libADLMIDI.a
 C_FILES=
 C_FILES_OUT = $(C_FILES:.c=.o)
